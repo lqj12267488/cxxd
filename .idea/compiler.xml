@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="cxxd_dao" />
+        <module name="cxxd_domain" />
+        <module name="cxxd_service" />
+        <module name="cxxd_web" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="cxxd" target="1.5" />
+      <module name="cxxd_dao" target="1.5" />
+      <module name="cxxd_domain" target="1.5" />
+      <module name="cxxd_service" target="1.5" />
+      <module name="cxxd_web" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
